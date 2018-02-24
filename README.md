@@ -1,10 +1,24 @@
 # FloriadeMaas
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
+
+## Setup
+
+Run `npm install` to setup the project.
+
+## API Key
+
+Enter your own Google API key in the apikey.ts file.
+The Google API key can be retrieved [here](http://console.developers.google.com/).
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## SSL Certificate
+
+If you want to use the Angular App on mobile, you need to have an SSL certificate.
+[Create](http://www.habilelabs.io/create-self-signed-ssl-certificate/) your own SSL certificates and put them in the ssl folder.
 
 ## Development server with SSL
 
@@ -17,14 +31,6 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
